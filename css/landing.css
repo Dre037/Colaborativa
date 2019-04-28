@@ -194,6 +194,11 @@ body {
     font-size: 1.35em;
 }
 
+.container-grid section:nth-last-of-type(2) aside form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container-grid section:nth-last-of-type(2) aside label {
     min-width: 100px;
     margin-right: 1em;
@@ -431,14 +436,11 @@ body {
 
 .container-grid section:last-of-type .d-card .d-content p {
     padding: 1em;
-    display: -webkit-box;
-    max-width: 45ch;
+    max-width: 30ch;
     max-height: 4ch;
     overflow: hidden;
     text-overflow: ellipsis;
     direction: ltr;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
 }
 
 .container-grid footer {
